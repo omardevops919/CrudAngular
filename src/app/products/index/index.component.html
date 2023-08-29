@@ -1,0 +1,28 @@
+
+<table class="table table-striped">
+   
+        <thead>
+            <tr>
+                <th>Réference</th>
+                <th>Désignation</th>
+                <th>imageart</th>
+                <th>prix</th>
+                <th>qtestock</th>
+                <th>Edit</th>
+                <th>Supprimer</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let p of products">
+        <td>{{p.reference}}</td>
+        <td>{{p.designation}}</td>
+        <td><img src ={{p.imageart}} alt=''  width="80" height="80"/></td>
+        <td>{{p.prix}}</td>
+        <td>{{p.qtestock}}</td>
+        <td><button type="button" class="btn btn-primary">Edit</button></td>
+        <td><button type="button" class="btn btn-danger">Supprimer</button></td>
+    </tr>
+    </tbody>
+
+</table>
