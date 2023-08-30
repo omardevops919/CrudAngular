@@ -20,8 +20,8 @@
         <td><img src ={{p.imageart}} alt=''  width="80" height="80"/></td>
         <td>{{p.prix}}</td>
         <td>{{p.qtestock}}</td>
-        <td><button type="button" class="btn btn-primary">Edit</button></td>
-        <td><button type="button" class="btn btn-danger">Supprimer</button></td>
+        <td><button type="button" class="btn btn-primary"><i class="bi bi-pencil-square"></i></button></td>
+        <td><button type="button" class="btn btn-danger" (click)="delarticle(p._id)"><i class="bi bi-trash3-fill"></i></button></td>
     </tr>
     </tbody>
 

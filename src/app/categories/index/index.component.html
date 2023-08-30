@@ -1,0 +1,24 @@
+
+<table class="table table-striped">
+   
+    <thead>
+        <tr>
+            <th>nomcategorie</th>
+            <th>imagecategorie</th>
+            <th>Edit</th>
+            <th>Supprimer</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let cat of categorie">
+    
+    <td>{{cat.nomcategorie}}</td>
+    <td><img src ={{cat.imagecategorie}} alt=''  width="80" height="80"/></td>
+    
+    <td><button type="button" class="btn btn-primary">Edit</button></td>
+    <td><button type="button" class="btn btn-danger">Supprimer</button></td>
+</tr>
+</tbody>
+
+</table>
