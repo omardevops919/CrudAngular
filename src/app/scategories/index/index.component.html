@@ -1,0 +1,24 @@
+<table class="table table-striped">
+   
+    <thead>
+        <tr>
+            <th>CategorieID</th>
+            <th>imagescat</th>
+            <th>nomscategorie</th>
+            <th>Edit</th>
+            <th>Supprimer</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let scat of scategories">
+            <td>{{scat.categorieID}}</td>       
+    <td>{{scat.nomscategorie}}</td>
+    <td><img src ={{scat.imagescat}} alt=''  width="80" height="80"/></td>
+    
+    <td><button type="button" class="btn btn-primary">Edit</button></td>
+    <td><button type="button" class="btn btn-danger">Supprimer</button></td>
+</tr>
+</tbody>
+
+</table>

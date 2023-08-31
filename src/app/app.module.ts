@@ -17,9 +17,9 @@ import { NavscrollComponent } from './navscroll/navscroll.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ProductsModule,
     HttpClientModule,
     CategoriesModule,
+    ProductsModule,
     ScategoriesModule
   ],
   providers: [],

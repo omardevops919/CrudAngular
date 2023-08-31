@@ -6,12 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./create.component.css']
 })
 export class CreateComponent {
-display="none";
 
-openModal(){
-  this.display="block";
-}
-closeModal(){
-  this.display="none";
-}
 }
