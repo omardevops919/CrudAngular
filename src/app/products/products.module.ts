@@ -7,6 +7,7 @@ import { ViewComponent } from './view/view.component';
 import { CreateComponent } from './create/create.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { ProductcardComponent } from './productcard/productcard.component';
 
 
 
@@ -15,6 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
     IndexComponent,
     ViewComponent,
     CreateComponent,
+    ProductcardComponent,
     
   ],
   imports: [
@@ -22,7 +24,8 @@ import { HttpClientModule } from '@angular/common/http';
     ProductsRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    
   ]
 })
 export class ProductsModule { }

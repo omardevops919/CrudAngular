@@ -1,0 +1,15 @@
+<div class="row" >
+    <div class="col-md-2" *ngFor="let p of products" >
+    <div class="card" style="width:260px;height: 380px; " >
+    
+    <img src= "{{p.imageart}}" class="card-img-
+    top" alt="{{p.reference}}" width="250" height="250" />
+    
+    <div class="card-body">
+    <h6 class="card-title">{{p.reference}}</h6>
+    <h4 class="card-text">Prix : {{p.prix}}</h4>
+    <p><a href="#" class="btn btn-primary">Add to Card</a></p>
+    </div>
+    </div>
+    </div>
+    </div>

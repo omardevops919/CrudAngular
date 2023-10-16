@@ -8,6 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { CategoriesModule } from './categories/categories.module';
 import { ScategoriesModule } from './scategories/scategories.module';
 import { NavscrollComponent } from './navscroll/navscroll.component';
+import { DataTablesModule } from 'angular-datatables';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NavscrollComponent } from './navscroll/navscroll.component';
     HttpClientModule,
     CategoriesModule,
     ProductsModule,
-    ScategoriesModule
+    ScategoriesModule,
+    DataTablesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
